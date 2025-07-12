@@ -8,7 +8,7 @@ export default defineConfig({
     vite: {
         plugins: [tailwindcss()],
         server: {
-    allowedHosts: 'all'
+    allowedHosts: true
 }
     },
     integrations: [react()],

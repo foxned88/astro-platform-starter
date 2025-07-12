@@ -11,6 +11,7 @@ export default defineConfig({
     integrations: [react()],
     adapter: netlify(),
     server: {
-    allowedHosts: true
-}
+        allowedHosts: true,
+        port: 3000
+    }
 });

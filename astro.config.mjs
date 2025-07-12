@@ -8,11 +8,8 @@ export default defineConfig({
     vite: {
         plugins: [tailwindcss()],
         server: {
-            allowedHosts: [
-                'localhost',
-                'devserver-preview--astro-test-site-1.netlify.app'
-            ]
-        }
+    allowedHosts: 'all'
+}
     },
     integrations: [react()],
     adapter: netlify()
